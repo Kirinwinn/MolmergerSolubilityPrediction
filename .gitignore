@@ -1,0 +1,6 @@
+# Python 垃圾文件
+__pycache__/
+*.pyc
+*.sdf
+*.pt
+.DS_Store
