@@ -1,0 +1,18 @@
+{
+  "data": "trainset.csv",
+  "smiles_col": "Smiles_Merged",
+  "target_col": "LogS",
+  "epochs": 70,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "num_layers": 3,
+  "num_timesteps": 3,
+  "graph_feat_size": 200,
+  "dropout": 0.2,
+  "patience": 0,
+  "output_dir": "runs/molmerger_train",
+  "shard_size": 8192,
+  "number_atom_features": 32,
+  "number_bond_features": 19
+}

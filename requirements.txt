@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+-f https://data.dgl.ai/wheels/torch-2.2/cu121/repo.html
+torch==2.2.1+cu121
+dgl==2.2.1+cu121
+torchdata==0.7.1
+deepchem==2.7.1
+dgllife==0.3.2
+rdkit-pypi==2022.9.5
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.11.4
+scikit-learn==1.4.2
+networkx==3.2.1
+matplotlib==3.8.4
+seaborn==0.13.2
+tqdm==4.66.4
+jupyterlab==4.2.5
+shap==0.45.1
